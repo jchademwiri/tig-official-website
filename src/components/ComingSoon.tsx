@@ -7,20 +7,20 @@ const ComingSoon = () => {
         <h1 className='md:text-8xl text-4xl font-bold py-6'>
           UNDER <br /> CONSTRUCTION
         </h1>
-        <p className='md:text-4xl text-2xl py-2 md:py-4 font-thin tracking-wider'>
+        <p className='md:text-4xl text-2xl py-2 md:py-4  font-thin tracking-wider'>
           SITE NEARLY READY
         </p>
-        <div className='h-2 rounded-full w-full bg-slate-400 my-2'>
-          <div className='h-2 rounded-full w-3/4 bg-yellow-600'></div>
+        <div className='h-2 rounded-full w-full bg-primary my-2'>
+          <div className='h-2 rounded-full w-3/4 bg-acccent'></div>
         </div>
         <h2 className='py-2 md:text-3xl text-xl font-semibold'>
           Contact us Now
         </h2>
         <div className='py-2 md:py-4 grid md:grid-cols-2'>
-          <Link className='py-1' href='tel:+27796787198'>
+          <Link className='py-1 hover:text-acccent' href='tel:+27796787198'>
             +27 (0)79 678 7198
           </Link>
-          <Link className='py-1' href='mailto:brianm@tradinginglory.co.za'>
+          <Link className='py-1 hover:text-acccent' href='mailto:brianm@tradinginglory.co.za'>
             brianm@tradinginglory.co.za
           </Link>
         </div>
@@ -31,7 +31,7 @@ const ComingSoon = () => {
           <Link
             title='We Would Love to work with your business, call us now '
             href={`https://www.playhousemedia.net/`}
-            className='hover:text-yellow-600 text-slate-500'
+            className='text-acccent hover:text-primary'
           >
             Playhouse Media Group
           </Link>
